@@ -32,6 +32,6 @@ model3的目標是讓模型有能力去根據CT影像去標記出血位置。
 
 3. Model 模型:
 
-我們使用Mask RCNN(resource: https://github.com/matterport/Mask_RCNN)將資料送進model中使用Coco的pretrained weight做training，並跑了50 epoches。
+我們使用Mask RCNN (resource: https://github.com/matterport/Mask_RCNN) 將資料送進model中使用Coco的pretrained weight做training，並跑了50 epoches。
 
 在 PeritonealHemorrhageDetection資料夾中有train.py檔案，是用來設定mask RCNN的Custom Config及Custom Dataset，並呼叫上述Mask RCNN的function以進行訓練
