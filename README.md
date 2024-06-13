@@ -1,5 +1,5 @@
 # Peritoneal-Hemorrhage-Detection-and-Location
-1. CNN 實作部分：
+一、 CNN 實作部分：
 在資料集的影像中，病人被分成rupt跟norm資料夾，分別代表病人腹腔CT有無出血。
 資料夾中有一堆數字資料夾表示病人ID，該資料夾中會有他們腹部CT及標註的結合影像。
 左邊部分是腹部CT影像，右邊部分是已經標註好出血位置的黑白影像。
@@ -17,7 +17,7 @@ model3的目標是讓模型有能力去根據CT影像去標記出血位置。
 3. 將打包及處理好的影像餵進去U-Net訓練。
 4. 最後將結果隨機抓出做視覺化。
 
-2. Mask RCNN實作部分:
+二、 Mask RCNN實作部分:
 本實作以Mask RCNN的model進行，以resnet50作為backbone network，進行出血偵測的模型訓練。
 
 1. Dataset 資料集:
